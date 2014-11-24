@@ -1,4 +1,4 @@
 test:
 	g++ $(p).cpp -o $(p)
-	./$(p) < $(p).in
+	./$(p) < in/$(p).in
 	rm $(p)
